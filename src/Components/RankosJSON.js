@@ -55,6 +55,26 @@ ListViewItemSeparator = () => {
         }
 
         return (
+    //         <View style={styles.MainContainer}>
+ 
+    //    <ListView
+ 
+    //      dataSource={this.state.dataSource}
+ 
+    //      renderSeparator= {this.ListViewItemSeparator}
+ 
+    //      renderRow={(rowData) =>
+ 
+
+            
+
+            
+    //     <View style={{ flexDirection: 'column',marginLeft:50}}>
+
+
+ 
+
+
 
     <View style={styles.MainContainer}>
         <ListView
@@ -97,7 +117,10 @@ ListViewItemSeparator = () => {
           }
         />
       </View>
-
+        // </View>
+        //  }
+        //  />
+        // </View>
             );
 
 

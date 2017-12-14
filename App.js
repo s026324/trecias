@@ -4,6 +4,7 @@ import { StackNavigator } from 'react-navigation';
 import { ScrollView } from 'react-native';
 //import Pratimai from './src/Components/PratimaiJSON.js';
 import Krutine from './Screens/Krutine';
+import Rankos from './Screens/Rankos';
 //import Rankos from './Screens/Rankos'
 import HomeScreen from './Screens/HomeScreen';
 
@@ -12,8 +13,8 @@ import HomeScreen from './Screens/HomeScreen';
 
 const ManoScreenai = StackNavigator({
   Home: { screen: HomeScreen },
-  Krutine : {screen: Krutine}
- // Rankos : {screen: Rankos}
+  Krutine : {screen: Krutine},
+  Rankos : {screen: Rankos}
 //   PratimaiKo : {screen: PratimuKoScreen},
 //   PratimaiNu : {screen: PratimuNuScreen},
 //   Kardio : {screen : KardioScreen},
@@ -34,5 +35,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center'
-  }
+  },
+
+
+
 });

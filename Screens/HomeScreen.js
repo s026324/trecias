@@ -10,9 +10,14 @@ import {
 
 
 export default class App extends React.Component {
+
+    
     static navigationOptions = {
             alignItems: 'center',
            };
+
+
+
     render() {
   const {navigate} = this.props.navigation;
   return (
@@ -23,6 +28,10 @@ export default class App extends React.Component {
       justifyContent: 'center',
       alignItems: 'center',
     }}>
+
+
+
+
 <Text style={{    color:'black',fontSize:20}}>Pasirinkite ka norite treniruoti:</Text>
   <Image style={{width: 120, height: 120,}}
       source={{uri:'http://cdn.marketplaceimages.windowsphone.com/v8/images/75b1a044-6125-4a49-af99-cca91b69cab2?imageType=ws_icon_large'}}
