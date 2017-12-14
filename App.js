@@ -5,7 +5,7 @@ import { ScrollView } from 'react-native';
 //import Pratimai from './src/Components/PratimaiJSON.js';
 import Krutine from './Screens/Krutine';
 import Rankos from './Screens/Rankos';
-//import Rankos from './Screens/Rankos'
+import Rankos from './Screens/Rankos'
 import HomeScreen from './Screens/HomeScreen';
 
 
@@ -15,10 +15,7 @@ const ManoScreenai = StackNavigator({
   Home: { screen: HomeScreen },
   Krutine : {screen: Krutine},
   Rankos : {screen: Rankos}
-//   PratimaiKo : {screen: PratimuKoScreen},
-//   PratimaiNu : {screen: PratimuNuScreen},
-//   Kardio : {screen : KardioScreen},
-//   PratimaiPe : {screen : PratimuPeScreen}
+
 });
 
 export default class App extends React.Component {
