@@ -1,0 +1,3 @@
+rootProject.name = 'trecias'
+
+include ':app'
