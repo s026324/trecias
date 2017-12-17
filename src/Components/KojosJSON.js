@@ -17,13 +17,13 @@ export default class InfoList3 extends Component {
   
 
 componentDidMount() {
-    return fetch('https://api.myjson.com/bins/tngu3')
+    return fetch('https://api.myjson.com/bins/u4223')
     .then((response) => response.json())
     .then((repsonseJson) => {
         let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.setState({
             isLoading: false,
-            dataSource: ds.cloneWithRows(repsonseJson.Gebejimai),
+            dataSource: ds.cloneWithRows(repsonseJson.Kojos),
         }, function() {
             //veiksmas su nauju state
         });
